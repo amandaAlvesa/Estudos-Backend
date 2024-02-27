@@ -1,0 +1,38 @@
+package com.injecao;
+
+import java.util.List;
+
+public class DemoApplication {
+	public static void main(String[] args) {
+		new MigracaoUsuario().migrar();
+	}
+}
+
+class MigracaoUsuario{
+	
+	FileReader reader = new FileReader();
+	BdWriter bdw = new BdWriter();
+	
+	void migrar() {
+		//ler usuarios em A
+		List<Usuario> usuario = reader.read();
+		// e escrever em B
+		bdw.writer(usuario);
+	}
+}
+
+record Usuario(String name, String email, String senha) {}
+
+class FileReader{
+	List<Usuario> read(){
+		System.out.println("Lendo Usuarios");
+		return List.of(new Usuario("Amanda", "amanda123@gmail.com", "amanda321"));
+	}
+}
+
+class BdWriter{
+	void writer(List<Usuario> usuario) {
+		System.out.println("Escrevendo os usuarios no banco");
+		System.out.println(usuario);
+	}
+}

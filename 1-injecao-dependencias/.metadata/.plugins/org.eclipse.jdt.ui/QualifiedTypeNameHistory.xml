@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.injecao.Usuario"/>
+    <fullyQualifiedTypeName name="com.injecao.reader"/>
+    <fullyQualifiedTypeName name="com.injecao.writer"/>
+    <fullyQualifiedTypeName name="com.injecao.FileReader"/>
+    <fullyQualifiedTypeName name="com.injecao.BdWriter"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+    <fullyQualifiedTypeName name="com.injecao.MigracaoUsuario"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+    <fullyQualifiedTypeName name="com.injecao.InjecaoDeDependecias"/>
+</qualifiedTypeNameHistroy>
